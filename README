@@ -1,0 +1,4 @@
+The currency converter is present in the `currencies.py` file. 
+We use a constant dictionary called `RATES` at the top of `currencies.py`. Keys are the 6-letter strings like `"USDEUR"`, `"GBPEUR"`, `"CHFEUR"`, and the values will be their rate.
+The `convert(amount, currency)` function. The first parameter is a **tuple** of two elements: a float and a currency (e.g. `(100, "USD")`). The second parameter is a `String`, the currency you want to convert the amount into.
+When called with an unknown rate (e.g. `"RMBEUR"`), the `convert` function returns `None`.
